@@ -1,15 +1,14 @@
-import NavButton from "./Navdiv";
+import Image from "next/image";
+import NavButton from "../Navdiv";
+
 
 export default function NavBar() {
   return (
     <>
       <div className="flex h-28 justify-evenly bg-white text-black rounded border-2">
         <div className="bg-white"><a href="">
-        <img
-            src="https://static.wixstatic.com/media/3fd7ef_bc6e6e28b63e415184f0f64d05057f82~mv2.png/v1/fill/w_165,h_131,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Navbar_logo_2.png"
-            alt=""
-            className="cursor-pointer "
-          />
+          <Image src={"https://static.wixstatic.com/media/3fd7ef_bc6e6e28b63e415184f0f64d05057f82~mv2.png/v1/fill/w_165,h_131,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Navbar_logo_2.png"} alt="Logo" className="cursor-pointer" />
+       
         </a>
           
         </div>

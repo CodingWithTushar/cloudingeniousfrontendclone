@@ -4,7 +4,7 @@ interface Card {
   paragraph: string;
 }
 
-export default function ({ title, title1, paragraph }: Card) {
+export default function Cards({ title, title1, paragraph }: Card) {
   return (
     <div className="bg-white text-black  h-[550px] w-[500px] p-5 rounded-md shadow-2xl">
       <div className="text-center  text-3xl flex justify-center items-center my-5 gap-3 cursor-text">

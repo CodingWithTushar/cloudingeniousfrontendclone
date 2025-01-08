@@ -1,10 +1,9 @@
 interface Card {
     title: string;
-
     paragraph: string;
   }
   
-  export default function ({ title, paragraph }: Card) {
+  export default function SmallCard({ title, paragraph }: Card) {
     return (
       <div className="bg-white text-black  h-[350px] w-[500px] p-5 rounded-lg hover:shadow-2xl">
         <div className="text-center  text-3xl flex justify-center items-center mt-5  mb-3 gap-3 cursor-text">

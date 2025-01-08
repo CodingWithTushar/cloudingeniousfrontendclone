@@ -1,10 +1,11 @@
-import NavBar from "./(Components)/(NavBar)/page";
+import NavBar from "./(Components)/NavBar/page";
 import Pointer from "./(Components)/Bulletpointers";
 import CloudDiv from "./(Components)/Cloudsdiv";
 import DivCard from "./(Components)/DivCard";
 import Platforms from "./(Components)/PlatformsDiv";
 import SmallCards from "./(Components)/SmallCards";
 import Cards from "./Cards";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
             <h5 className="text-4xl font-medium">
               Helping businesses and partners grow with the help of technology
             </h5>
-          </section>
+          </section>  
 
           <section className="py-20 text-center bg-blue-500 text-white  ">
             <div className="text-5xl">
@@ -124,7 +125,7 @@ export default function Home() {
               </div>
 
               <div>
-                <img
+                <Image
                   src="https://wallpaperaccess.com/full/1271967.jpg"
                   alt=""
                   width={4000}
@@ -224,7 +225,7 @@ export default function Home() {
           <section>
             <div className="flex gap-20 items-center mt-32 justify-center px-40  ">
               <div className="flex justify-center items-center pl-20">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&w=600"
                   width={5000}
                   alt=""
@@ -314,7 +315,7 @@ export default function Home() {
           <section>
             <div className="flex my-20 px-32">
               <div className="flex justify-center items-center pl-20 px-20 ">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/4226122/pexels-photo-4226122.jpeg?auto=compress&cs=tinysrgb&w=600"
                   width={3300}
                   alt=""
@@ -370,8 +371,8 @@ export default function Home() {
             <div className="  bg-white rounded-2xl shadow-xl overflow-hidden border-4 mx-80 my-20">
               <div className="md:flex p-10">
                 <div className="md:shrink-0 flex justify-center items-center ">
-                  <img
-                    className="h-48 w-full object-cover "
+                  <Image
+                    className="h-48 w-full object-cover " alt=""
                     src="https://static.wixstatic.com/media/3fd7ef_7b8fa3e89ab7490eaa2e25914beb7b62~mv2.jpg/v1/fill/w_147,h_147,fp_0.31_0.18,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/TESTOMONIAL%20IMAGE.jpg"
                   />
                 </div>
@@ -564,7 +565,7 @@ export default function Home() {
           <footer className=" bg-gradient-to-l from-[#0176D3] justify-evenly items-center ">
             <div className="flex justify-evenly py-16">
               <div>
-                <img
+                <Image
                   src="https://static.wixstatic.com/media/3fd7ef_bc6e6e28b63e415184f0f64d05057f82~mv2.png/v1/fill/w_165,h_131,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Navbar_logo_2.png"
                   alt=""
                 />
@@ -584,7 +585,7 @@ export default function Home() {
 
                 <div className="flex items-center text-xl gap-5 text-white">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=rJSINIXLwINM&format=png&color=000000"
                       alt=""
                       width={80}
@@ -598,7 +599,7 @@ export default function Home() {
 
                 <div className="flex items-center text-xl gap-5 text-white">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=letUS1DJO1ou&format=png&color=000000"
                       alt=""
                       width={80}
@@ -611,7 +612,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center text-xl gap-5 text-white">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=xLIkjgcmFOsC&format=png&color=000000"
                       alt=""
                       width={80}
@@ -626,14 +627,14 @@ export default function Home() {
             </div>
             <div className="flex gap-3 justify-center items-center py-5">
               <div className="brightness-75 hover:brightness-125">
-                <img
+                <Image
                   src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000"
                   alt=""
                   width={70}
                 />
               </div>
               <div className="brightness-75 hover:brightness-125">
-                <img
+                <Image
                   src="https://img.icons8.com/?size=100&id=63676&format=png&color=000000"
                   alt=""
                   width={70}
@@ -641,14 +642,14 @@ export default function Home() {
               </div>
 
               <div className="brightness-75 hover:brightness-125">
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/128/5968/5968852.png"
                   alt=""
                   width={60}
                 />
               </div>
               <div className="brightness-75 hover:brightness-125">
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png"
                   alt=""
                   width={60}
@@ -656,7 +657,7 @@ export default function Home() {
               </div>
 
               <div className="brightness-75 hover:brightness-125">
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"
                   alt=""
                   width={60}
