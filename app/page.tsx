@@ -1,10 +1,11 @@
-import Pointer from "./(Components)/(NavBar)/Bulletpointers";
-import Cards from "./(Components)/(NavBar)/Cards";
-import CloudDiv from "./(Components)/(NavBar)/Cloudsdiv";
-import DivCard from "./(Components)/(NavBar)/DivCard";
 import NavBar from "./(Components)/(NavBar)/page";
-import Platforms from "./(Components)/(NavBar)/PlatformsDiv";
-import SmallCards from "./(Components)/(NavBar)/SmallCards";
+import Pointer from "./(Components)/Bulletpointers";
+import CloudDiv from "./(Components)/Cloudsdiv";
+import DivCard from "./(Components)/DivCard";
+import Platforms from "./(Components)/PlatformsDiv";
+import SmallCards from "./(Components)/SmallCards";
+import Cards from "./Cards";
+
 
 export default function Home() {
   return (
